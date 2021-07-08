@@ -61,18 +61,12 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="avatarImageView" destination="lpV-0b-ivv" id="az0-SF-YrH"/>
-                                    <outlet property="buttonSafeArea" destination="fqZ-d5-Ag7" id="YnU-yu-hMR"/>
                                     <outlet property="fullNameLabel" destination="WBa-1a-Fqz" id="6hL-Zd-r89"/>
                                     <outlet property="setStatusButton" destination="2hI-k5-fIO" id="9n9-up-fxz"/>
                                     <outlet property="statusLabel" destination="W32-wk-zJt" id="TB9-Hv-qDZ"/>
                                     <outlet property="statusTextField" destination="Zru-ot-Jor" id="PBC-jW-DMA"/>
                                 </connections>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqZ-d5-Ag7">
-                                <rect key="frame" x="0.0" y="664" width="414" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FCL-IZ-fe8"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>

@@ -66,20 +66,7 @@ class ProfileHeaderView: UIView {
     }
 
     
-    @IBOutlet weak var buttonSafeArea: UIButton! {
-        didSet {
-            buttonSafeArea.setTitle("Hello, i'm new button", for: .normal)
-            buttonSafeArea.backgroundColor = .systemGreen
-            //buttonSafeArea.addTarget(self, action: #selector(tap), for: .touchUpInside)
-            buttonSafeArea.layer.cornerRadius = 4
-            buttonSafeArea.layer.shadowColor = UIColor.black.cgColor
-            buttonSafeArea.layer.shadowOffset = CGSize(width: 0, height: 4)
-            buttonSafeArea.layer.shadowRadius = 4
-            buttonSafeArea.layer.shadowOpacity = 0.7
-            buttonSafeArea.frame = CGRect(x: 420, y: 234, width: UIScreen.main.bounds.width - 32, height: 50)
-        }
-    }
-    
+   
     
     
 
